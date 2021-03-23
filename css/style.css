@@ -1,0 +1,17 @@
+.mx-6{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.px-7{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+body{
+    background-color: #00000014 !important;
+}
+.rounded-5{
+    border-radius: 30px;
+}
+.fc-r{
+    color: #BE1E2D;
+}
