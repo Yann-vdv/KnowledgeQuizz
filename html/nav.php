@@ -3,8 +3,8 @@
   <?php
     if(isset($_SESSION["email"])){
       ?>
-        <div class="dropdown float-end">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <div class="dropdown align-middle ms-auto">
+          <button class="btn btn-outline-danger fs-5 me-4 my-3 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             Compte
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
