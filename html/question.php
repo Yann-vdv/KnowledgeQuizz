@@ -18,7 +18,7 @@
         <div class="mx-5 col-7 d-flex justify-content-center">
             <div class="bg-white border rounded-5 d-flex align-items-center flex-column shadow py-5 px-7">
                 <h2 id="question" class="mb-0">Question 1/20</h2>
-                <p class="fs-4 my-3">A quel pays appartien ce drapeau ?</p>
+                <p class="fs-4 my-3">A quel pays appartiens ce drapeau ?</p>
                 <img class="border rounded-3" src="https://www.gouv.bj/upload/images/benin/0491859001545163796.png" alt="">
             </div>
         </div>
