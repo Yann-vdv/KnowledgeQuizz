@@ -12,7 +12,7 @@
 </head>
 <body>
     <?php   include("nav.php");     ?>
-    <div class="row my-5">
+    <div class="row my-5" style="width:100%;">
         <div class="col-1"></div>
         <div class="col-5 bg-white border rounded-5 shadow py-5 px-7">
             <div class="d-flex flex-column mx-7">
@@ -30,7 +30,6 @@
         <div class="col-4 position-relative">
             <img src="../image/red.png" class="img-fluid position-absolute top-50 start-50 translate-middle" alt="">
         </div>
-        <div class="col-1"></div>
     </div>
 </body>
 </html>

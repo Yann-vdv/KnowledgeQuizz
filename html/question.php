@@ -14,7 +14,7 @@
 <body>
     <?php   include("nav.php");     ?>
     <H2 class="ms-5 my-5">Nom du Quizz</H2>
-    <div class="row">
+    <div class="row" style="width:100%;">
         <div class="mx-5 col-7 d-flex justify-content-center">
             <div class="bg-white border rounded-5 d-flex align-items-center flex-column shadow py-5 px-7">
                 <h2 id="question" class="mb-0">Question 1/20</h2>
