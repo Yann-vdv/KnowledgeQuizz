@@ -1,4 +1,4 @@
-.mx-6{
+.mx-6 {
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -10,12 +10,41 @@
     padding-left: 15%;
     padding-right: 15%;
 }
-body{
+
+body {
     background-color: #00000014 !important;
 }
-.rounded-5{
+
+.rounded-5 {
     border-radius: 30px;
 }
-.fc-r{
+
+.fc-r {
     color: #BE1E2D;
+}
+
+.my-6 {
+    margin-top: 10%;
+}
+
+.fs-0 {
+    font-size: 300%;
+}
+
+.fs-7 {
+    font-size: 250%;
+}
+
+.boutton1 {
+    width: 13%;
+    height: 8.5%;
+    margin-left: -15%;
+    margin-top: 13%;
+}
+
+.boutton2 {
+    width: 13%;
+    height: 8.5%;
+    margin-left: 20%;
+    margin-top: 13%;
 }
