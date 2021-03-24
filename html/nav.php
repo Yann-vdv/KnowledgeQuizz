@@ -16,8 +16,8 @@
     else{
       ?>
         <div class="ms-auto">
-          <a class="text-decoration-none text-danger fs-5 fw-bold me-3 my-3 align-middle">s'inscrire</a>
-          <button class="me-4 my-3 btn btn-outline-danger fs-5 fw-bold">se connecter</button>
+          <a class="text-decoration-none text-danger fs-5 fw-bold me-3 my-3 align-middle" href="inscription.php">s'inscrire</a>
+          <button class="me-4 my-3 btn btn-outline-danger fs-5 fw-bold" onclick="window.location='login.php';">se connecter</button>
         </div>
       <?php
     }
