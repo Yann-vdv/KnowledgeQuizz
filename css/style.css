@@ -1,6 +1,5 @@
 .mx-6 {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
 }
 
 .px-7 {
@@ -13,7 +12,7 @@ body {
 }
 
 .rounded-5 {
-    border-radius: 30px;
+    border-radius: 30px !important;
 }
 
 .fc-r {
@@ -30,18 +29,4 @@ body {
 
 .fs-7 {
     font-size: 250%;
-}
-
-.boutton1 {
-    width: 13%;
-    height: 8.5%;
-    margin-left: -15%;
-    margin-top: 13%;
-}
-
-.boutton2 {
-    width: 13%;
-    height: 8.5%;
-    margin-left: 20%;
-    margin-top: 13%;
 }
