@@ -17,8 +17,8 @@
             <H2 class="mx-6 my-6 fs-0">20 questions aléatoires à chaque quizz</H2>
             <p class="my-4 fs-7 mx-6">Jusqu'à 60 questions différentes et la possibilité de créer soi-même ses quizz</p>
             <div class="mx-5 d-flex mb-5">
-                <button class="btn btn-outline-danger rounded-5 fs-3 fw-bold ms-5 py-2 px-4">Lancer un quizz</button>
-                <button class="btn btn-outline-danger rounded-5 fs-3 fw-bold ms-auto me-5 py-2 px-4">Créer un quizz</button>
+                <button class="btn btn-outline-danger rounded-5 fs-3 fw-bold ms-5 py-2 px-4" onclick="window.location='question.php';">Lancer un quizz</button>
+                <button class="btn btn-outline-danger rounded-5 fs-3 fw-bold ms-auto me-5 py-2 px-4" onclick="window.location='QuizzCreate.php';">Créer un quizz</button>
             </div>
         </div>  
         <div class="col-5 position-relative">

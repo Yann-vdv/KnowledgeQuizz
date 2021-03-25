@@ -1,5 +1,5 @@
 <nav class="d-flex bg-light shadow">
-<h1 class="ms-4 my-3 fs-3 fw-bold fc-r">KnowledgeQuizz</h1>
+<h1 class="ms-4 my-3 fs-3 fw-bold fc-r" onclick="window.location='index.php';">KnowledgeQuizz</h1>
   <?php
     //$_SESSION["email"] = "<script>document.writeln(email);</script>";
     if(isset($_SESSION["email"])){
