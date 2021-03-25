@@ -27,40 +27,40 @@
                     <p class="ms-3" style="margin-top:16px;">questions aléatoires</p>
                 </div>
                 <div class="d-none" id="nbQ">
-                    <input type="number" name="" id="" min="1" max="2" step="1" value="2" class="align-self-center" style="width:50px;">
+                    <input type="number" name="" id="nbQuestion" min="1" max="2" step="1" value="2" class="align-self-center" style="width:50px;">
                     <p class="ms-3" style="margin-top:16px;">nombres de questions du quizz</p>
                 </div>
             </div>
         </div>
         <div class="ms-5 p-0" id="questions">
             <h3>Question 1</h3>
-            <input type="text" name="question1" class="mt-3" style="width:50%;" required>
+            <input type="text" name="question1" class="mt-3" style="width:50%;">
             <div class="row d-flex my-4 mx-0">
-                <input type="checkbox" name="Bresponse1.1" class="col-1 align-self-center">
-                <div class="col-4"><h3>Réponse 1</h3><input type="text" name="response1.1" placeholder="première réponse" style="width:100%;" required></div>
-                <input type="checkbox" name="Bresponse1.2" class="col-1 align-self-center">
-                <div class="col-4"><h3>Réponse 2</h3><input type="text" name="response1.2" placeholder="deuxième réponse" style="width:100%;" required></div>
+                <input type="checkbox" name="Bresponse1_1" value="CBresponse" id="Bresponse1_1" onclick="response(id)" class="col-1 align-self-center">
+                <div class="col-4"><h3>Réponse 1</h3><input type="text" name="response1_1" placeholder="première réponse" style="width:100%;"></div>
+                <input type="checkbox" name="Bresponse1_2" value="CBresponse" id="Bresponse1_2" onclick="response(id)" class="col-1 align-self-center">
+                <div class="col-4"><h3>Réponse 2</h3><input type="text" name="response1_2" placeholder="deuxième réponse" style="width:100%;"></div>
             </div>
             <div class="row d-flex my-4 mx-0">
-                <input type="checkbox" name="Bresponse1.3" class="col-1 align-self-center">
-                <div class="col-4"><h3>Réponse 3</h3><input type="text" name="response1.3" placeholder="troisième réponse" style="width:100%;" required></div>
-                <input type="checkbox" name="Bresponse1.4" class="col-1 align-self-center">
-                <div class="col-4"><h3>Réponse 4</h3><input type="text" name="response1.4" placeholder="quatrième réponse" style="width:100%;" required></div>
+                <input type="checkbox" name="Bresponse1_3" value="CBresponse" id="Bresponse1_3" onclick="response(id)" class="col-1 align-self-center">
+                <div class="col-4"><h3>Réponse 3</h3><input type="text" name="response1_3" placeholder="troisième réponse" style="width:100%;"></div>
+                <input type="checkbox" name="Bresponse1_4" value="CBresponse" id="Bresponse1_4" onclick="response(id)" class="col-1 align-self-center">
+                <div class="col-4"><h3>Réponse 4</h3><input type="text" name="response1_4" placeholder="quatrième réponse" style="width:100%;"></div>
             </div>
             <p>Veuillez cocher la bonne réponse</p>
             <h3>Question 2</h3>
             <input type="text" name="question2" class="mt-3" style="width:50%;">
             <div class="row d-flex my-4 mx-0">
-                <input type="checkbox" name="Bresponse1.1" class="col-1 align-self-center">
-                <div class="col-4"><h3>Réponse 1</h3><input type="text" name="response1.1" placeholder="première réponse" style="width:100%;" required></div>
-                <input type="checkbox" name="Bresponse1.2" class="col-1 align-self-center">
-                <div class="col-4"><h3>Réponse 2</h3><input type="text" name="response1.2" placeholder="deuxième réponse" style="width:100%;" required></div>
+                <input type="checkbox" name="Bresponse2_1" value="CBresponse" id="Bresponse2_1" onclick="response(id)" class="col-1 align-self-center">
+                <div class="col-4"><h3>Réponse 1</h3><input type="text" name="response2_1" placeholder="première réponse" style="width:100%;"></div>
+                <input type="checkbox" name="Bresponse2_2" value="CBresponse" id="Bresponse2_2" onclick="response(id)" class="col-1 align-self-center">
+                <div class="col-4"><h3>Réponse 2</h3><input type="text" name="response2_2" placeholder="deuxième réponse" style="width:100%;"></div>
             </div>
             <div class="row d-flex my-4 mx-0">
-                <input type="checkbox" name="Bresponse1.3" class="col-1 align-self-center">
-                <div class="col-4"><h3>Réponse 3</h3><input type="text" name="response1.3" placeholder="troisième réponse" style="width:100%;" required></div>
-                <input type="checkbox" name="Bresponse1.4" class="col-1 align-self-center">
-                <div class="col-4"><h3>Réponse 4</h3><input type="text" name="response1.4" placeholder="quatrième réponse" style="width:100%;" required></div>
+                <input type="checkbox" name="Bresponse2_3" value="CBresponse" id="Bresponse2_3" onclick="response(id)" class="col-1 align-self-center">
+                <div class="col-4"><h3>Réponse 3</h3><input type="text" name="response2_3" placeholder="troisième réponse" style="width:100%;"></div>
+                <input type="checkbox" name="Bresponse2_4" value="CBresponse" id="Bresponse2_4" onclick="response(id)" class="col-1 align-self-center">
+                <div class="col-4"><h3>Réponse 4</h3><input type="text" name="response2_4" placeholder="quatrième réponse" style="width:100%;"></div>
             </div>
             <p>Veuillez cocher la bonne réponse</p>
         </div>
