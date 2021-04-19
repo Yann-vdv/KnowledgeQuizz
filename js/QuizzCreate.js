@@ -55,7 +55,7 @@ function nvQuestion(){
     ICB1.value = `CBresponse`;
     ICB1.id = `Bresponse${nbquestion}_1`;
     ICB1.setAttribute("onclick","response(id)");
-    ICB1.classList = "col-1 align-self-center"
+    ICB1.classList = "col-1 align-self-center";
     div1.appendChild(ICB1);
     var Sdiv1 = document.createElement("div");                  
     Sdiv1.classList = "col-4";
